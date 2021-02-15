@@ -4,7 +4,7 @@ A JavaScript plugin that can be used completely without any other JavaScript cod
 ## jQuery is required (tested with jQuery-3.5.1)
 
 ## The default required attribute alerts are annoying?
-cvalidate is a Custom Validator that valdates all your inputs and it automatically replaces the require attribute.
+cvalidate is a Custom Validator that valdates all your inputs and it automatically replaces the required attribute.
 
 ## How to use it with only HTML?
 ```html
