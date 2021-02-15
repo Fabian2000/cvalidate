@@ -1,12 +1,12 @@
 # cvalidate
 A JavaScript plugin that can be used completely without any other JavaScript code, but also can get extended by own code
 
-##jQuery is required (tested with jQuery-3.5.1)
+## jQuery is required (tested with jQuery-3.5.1)
 
-##The default requirement attribute alerts are annoying?
+## The default requirement attribute alerts are annoying?
 cvalidate is a Custom Validator that valdates all your inputs and it automatically replaces the require attribute.
 
-##How to use it with only HTML?
+## How to use it with only HTML?
 ```html
 <form>
   <input class="checkbox" required type="checkbox"><br><br>
@@ -20,17 +20,17 @@ cvalidate is a Custom Validator that valdates all your inputs and it automatical
 <script src="cvalidate.js"></script>
 ```
 
-##How to use custom classes instead of the default cval class?
+## How to use custom classes instead of the default cval class?
 Add the data attribue data-cvalidate-class="HERE_YOUR_CLASS_NAME"
 
-##I get problems because it searches a form-tag, but I want just the input without form
+## I get problems because it searches a form-tag, but I want just the input without form
 You can set exceptions to fix problems like that ... Just add the exceptions per data attribute.
 Multiple exceptions can be written with a comma.
 This Exceptions exist:
   - form-exception      >> If input has no form, you can set this exception
   - event-exception     >> If you want a custom event, set this as an exception
 
-##How can I build the validator into my own script?
+## How can I build the validator into my own script?
 If some features are missing, you can build your own script. To do that, you can use different functions:
 
 ```js
@@ -46,7 +46,7 @@ CValValidate($('.example-input'), function(e)
 });
 ```
 
-##Which error codes could get returned by CValValidate(...)?
+## Which error codes could get returned by CValValidate(...)?
 Error Codes:
 - TEXT_EMPTY
 - CHECKBOX_UNCHECKED
