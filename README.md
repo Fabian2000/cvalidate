@@ -19,6 +19,7 @@ cvalidate is a Custom Validator that valdates all your inputs and it automatical
 <script src="jQuery3.5.1.min.js"></script>
 <script src="cvalidate.js"></script>
 ```
+(Every input type which supports required got tested and worked with the script)
 
 ## How to use custom classes instead of the default cval class?
 Add the data attribue data-cvalidate-class="HERE_YOUR_CLASS_NAME"
